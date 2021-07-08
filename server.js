@@ -15,3 +15,4 @@ app.listen(PORT, () => console.log(`Server started on port ${PORT}`));
 
 //routes
 app.use("/user", require("./routes/user"));
+app.use("/spirits", require("./routes/spirits"));
